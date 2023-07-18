@@ -1,0 +1,50 @@
+*{
+    margin: 0; padding: 0;
+}
+header{
+    max-width: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 40px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+}
+.style{
+    color: rgba(209, 78, 111, 0.596);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-pic{
+    width: 50px;
+    height: 35px;
+}
+.menu-item{
+    gap: 15px;
+}
+.menu-item > span{
+    margin: 0 10px;
+    font-size: 24px;
+    color: red;
+}
+span .tuk-tak{
+    color: black;
+}
