@@ -147,6 +147,8 @@ main{
     display: flex;
     align-items: center;
     text-align: end;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 .play-instant-info{
     width: 50%;
@@ -173,8 +175,81 @@ main{
     margin: 15px 0;
     font-size: 45px;
 }
-
-
+/* games styles */
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    height: 400px;
+    position: relative;
+    align-content: center;
+}
+.logo-p a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.logo-p{
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    color: black;
+    
+}
+.logo-p:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 50px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* footer styles  */
+footer{
+    background-color: black;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    color: white;
+    margin: auto;
+    justify-content: center;
+    padding: 50px;
+}
+.list-item{
+    justify-content: center;
+}
+.logo-div{
+    display: flex;
+}
+.list-item{
+    display: flex;
+    gap: 40px;
+    margin: 15px 0;
+}
+.list-item li{
+    list-style: none;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+.icon span{
+    font-size: 25px;
+    color: white;
+    margin: 0 20px;
+}
+p{
+    text-align: center;
+}
 
 
 
@@ -228,6 +303,7 @@ main{
     .play-instant{
         flex-direction: column;
         text-align: center;
+        margin-bottom: 20px;
     }
     .play-instant-img{
         widows: 100%;
@@ -249,6 +325,30 @@ main{
     .play-instant-sub-img > img{
         height: auto;
         width: 30%;
+    }
+    .games{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        gap: 50px;
+    }
+    .logo-p{
+        padding: 2px 5px;
+        width: 80px;
+        margin: 0 5px;
+        align-self: center;
+    }
+    .logo-p a {
+        margin-left: 5px;
+        font-size: 8px;
+    }
+    .logo-p img{
+        width: 40px; height: 40px;
+    }
+    /* footer responsive  */
+    .list-item{
+        gap: 10px;
     }
 }
 
