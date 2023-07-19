@@ -35,6 +35,7 @@ nav h1{
 .logo{
     display: flex;
     align-items: center;
+    
 }
 .logo-pic{
     width: 50px;
@@ -80,6 +81,7 @@ main{
 .play-head{
  font-size: 45px;
  text-transform: uppercase;
+ margin-bottom: 0;
 }
 .play-head-2{
     font-size: 70px;
@@ -88,9 +90,11 @@ main{
     -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    font-weight: 800;
+   margin-top: 5px;
+   margin-bottom: 0;
 }
 .play-info p{
-    margin: 15px 0;
+    margin: 10px 0;
     justify-content: center;
     text-align: start;
 }
@@ -361,7 +365,51 @@ p{
         gap: 10px;
     }
 }
-
+/* desktop view  */
+@media screen and (min-width:577px) and (max-width:768px){
+    nav{
+        flex-direction: column;
+    }
+    .play{
+        flex-direction: column-reverse;
+    }
+    .play-info{
+        width: 100%;
+        margin: auto;
+        margin-left: 100px;
+    }
+    .play-img{
+        width: 100%;
+    }
+    .online-game{
+        margin: auto;
+        margin-left: 50px;
+    }
+    .card img{
+        height: auto;
+    }
+    .play-instant{
+        flex-direction: column-reverse;
+    }
+    .play-instant-img{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .play-instant-info{
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    .play-instant-info p{
+        text-align: center;
+    }
+    .games{
+        width: 100%;
+    }
+    .logo-p{
+     margin-left: 50px;
+    }
+}
 
 
 
