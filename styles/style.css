@@ -247,6 +247,14 @@ footer{
     margin: 35px 0;
     font-size: 12px;
 }
+.list-item-2{
+    display: flex;
+    gap: 40px;
+    margin: 35px 0;
+    font-size: 12px;
+    list-style: none;
+    justify-content: center;
+}
 .list-item li{
     list-style: none;
 }
@@ -264,15 +272,6 @@ p{
     text-align: center;
     font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -363,7 +362,18 @@ p{
     /* footer responsive  */
     .list-item{
         gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
+    .list-item-2{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container{
+        text-align: center;
+    }
+
 }
 /* desktop view  */
 @media screen and (min-width:577px) and (max-width:768px){
