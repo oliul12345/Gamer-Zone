@@ -1,5 +1,8 @@
 *{
     margin: 0; padding: 0;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 header{
     max-width: 100%;
@@ -110,8 +113,66 @@ main{
     color: white;
     border-radius: 20px;
 }
+/* Online game section  */
+.online-game{
+    margin-top: 100px;
+}
+.online-head{
+    font-size: 40px;
+}
+.online-game-info{
+    text-align: center;
+}
+.online-game-des{
+    margin: 15px 0 40px 0;
+}
+.online-head-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card > img{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 350px;
+}
 
-
+/* instant secton styles */
+.play-instant{
+    display: flex;
+    align-items: center;
+    text-align: end;
+}
+.play-instant-info{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.play-instant-img{
+    widows: 50%;
+    position: relative;
+}
+.play-instant-img > img{
+    height: 560px;
+}
+.play-instant-sub-img{
+    position: absolute;
+    top: 370px;
+    left: -100px;
+}
+.play-instant-sub-img > img{
+    height: 250px;
+    width: 100%;
+}
+.play-instant-head{
+    margin: 15px 0;
+    font-size: 45px;
+}
 
 
 
@@ -155,6 +216,39 @@ main{
     }
     .play-img{
         width: 100%;
+    }
+    /* online game section  */
+    .online-game{
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    /* play instant styles  */
+    .play-instant{
+        flex-direction: column;
+        text-align: center;
+    }
+    .play-instant-img{
+        widows: 100%;
+    }
+    .play-instant-info{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .play-instant-sub-img{
+        position: absolute;
+        top: 280px;
+        left: -140px;
+    }
+    .play-instant-img > img{
+        width: 100%;
+        height: auto;
+    }
+    .play-instant-sub-img > img{
+        height: auto;
+        width: 30%;
     }
 }
 
