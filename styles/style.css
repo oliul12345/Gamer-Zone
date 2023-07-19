@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0; padding: 0;
     font-family: 'Pangolin', cursive;
     font-family: 'Roboto', sans-serif;
@@ -91,6 +91,8 @@ main{
 }
 .play-info p{
     margin: 15px 0;
+    justify-content: center;
+    text-align: start;
 }
 
 .play-info p span{
@@ -136,6 +138,8 @@ main{
     display: flex;
     gap: 20px;
 }
+
+
 .card > img{
     width: 100%;
     margin-bottom: 10px;
@@ -154,6 +158,9 @@ main{
     width: 50%;
     display: flex;
     justify-content: center;
+}
+.play-instant p{
+    text-align: end;
 }
 .play-instant-img{
     widows: 50%;
@@ -195,7 +202,7 @@ main{
     align-content: center;
     align-items: center;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: black;
     
 }
@@ -228,11 +235,13 @@ footer{
 }
 .logo-div{
     display: flex;
+    align-items: center;
 }
 .list-item{
     display: flex;
     gap: 40px;
-    margin: 15px 0;
+    margin: 35px 0;
+    font-size: 12px;
 }
 .list-item li{
     list-style: none;
@@ -249,6 +258,7 @@ footer{
 }
 p{
     text-align: center;
+    font-size: 12px;
 }
 
 
@@ -341,7 +351,7 @@ p{
     }
     .logo-p a {
         margin-left: 5px;
-        font-size: 8px;
+        font-size: 10px;
     }
     .logo-p img{
         width: 40px; height: 40px;
